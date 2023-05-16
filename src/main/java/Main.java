@@ -61,7 +61,8 @@ public class Main {
     }*/
 
         double salarios;
-        int qtdSalarios = 0;
+        int qtdSalarios;
+        double media = 0;
 
 
 
@@ -69,15 +70,19 @@ public class Main {
         qtdSalarios = sc.nextInt();
 
        for(int i = 1; i <= qtdSalarios; i++){
-           System.out.println("Digite o salário:  " + i );
+           System.out.println("Digite o salário " + i );
            salarios = sc.nextDouble();
 
            System.out.println("Salários: " + salarios );
 
 
+           System.out.println("A sua média salarial é: "  + media);
+
+           sc.close();
 
        }
-
+       
+       
       }
 
 
