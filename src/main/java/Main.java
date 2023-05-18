@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // Código sobre calcular media salarial usando 'do e while' em java//
+
         /* String funcionarioUm;
         double salarioUm;
         String funcionarioDois;
@@ -58,8 +60,14 @@ public class Main {
         sc.close();
 
 
-    }*/
+    } */
 
+
+
+        // Código sobre calcular media salarial usando 'for' em java//
+
+
+        /*
         double salarios = 0;
         int qtdSalarios;
         double mediasalarial = 0;
@@ -68,6 +76,9 @@ public class Main {
 
         System.out.println("Informe a quantidade de salários para calcular a média: ");
         qtdSalarios = sc.nextInt();
+
+
+
 
        for(int i = 1; i <= qtdSalarios; i++){
            System.out.println("Digite o salário " + i );
@@ -85,4 +96,38 @@ public class Main {
       }
 
 
+
+
+
+
     }
+
+    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
